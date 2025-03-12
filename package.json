@@ -1,0 +1,27 @@
+{
+  "name": "usestate-intermediate",
+  "version": "1.0.0",
+  "description": "A collection of five intermediate projects using the useState hook in React.",
+  "private": true,
+  "workspaces": [
+    "LimitedCounter/",
+    "TaskListWithRemoval/",
+    "BasicShoppingCart/",
+    "ImageChangerButton/",
+    "PointsIncrementDecrement/"
+  ],
+  "keywords": [
+    "useState",
+    "React",
+    "Intermediate",
+    "State Management",
+    "React Hooks",
+    "JavaScript"
+  ],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Espadv69/useState-Intermediate.git"
+  },
+  "author": "Aitor"
+}
