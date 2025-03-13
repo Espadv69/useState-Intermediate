@@ -25,6 +25,11 @@ const FavoriteList = () => {
     const newList = favorites.filter((favorite) => favorite !== item)
     setFavorites(newList)
   }
+
+  // Function to remove all favorites
+  const removeAllFavorites = () => {
+    setFavorites([])
+  }
 }
 
 export default FavoriteList
