@@ -11,6 +11,13 @@ const Explanation = () => {
           imgUrl="/images/initHooks.png"
           imgAlt="Code snippet showing the initialization of the counter and limit states."
         />
+
+        <LiExplanation
+          stepNumber={2}
+          description="Create the increment function to increase the count."
+          imgUrl="/images/incrementFunction.png"
+          imgAlt="Code snippet showing the increment function."
+        />
       </ol>
     </section>
   )
