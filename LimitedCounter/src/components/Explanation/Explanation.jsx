@@ -49,9 +49,9 @@ const Explanation = () => {
 
         <LiExplanation
           stepNumber={7}
-          description="Render the counter component with buttons and input field for setting the limit."
-          imgUrl="/images/htmlStructure.png"
-          imgAlt="Code snippet showing the HTML structure of the counter component."
+          description="Render buttons to increment, decrement, and reset the count."
+          imgUrl="/images/htmlBtns.png"
+          imgAlt="Code snippet showing the buttons to increment, decrement, and reset the count."
         />
       </ol>
     </section>
