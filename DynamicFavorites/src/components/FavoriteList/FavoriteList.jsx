@@ -9,6 +9,15 @@ const FavoriteList = () => {
   // State with initial data
   const [favorites, setFavorites] = useState(INITIAL_FAVORITES)
   const [list, setList] = useState(INITIAL_LIST)
+  const [newItem, setNewItem] = useState('')
+
+  // Function to add to list
+  const addToList = (newItem) => {
+    if (!list.includes(newItem)) {
+      setList([...list, newItem])
+      setNewItem('')
+    }
+  }
 
   // Function to add a favorite
   const addFavorite = (newItem) => {
@@ -65,6 +74,18 @@ const FavoriteList = () => {
           </li>
         ))}
       </ul>
+
+      <div className="form">
+        <label>
+          New Item:
+          <input
+            type="text"
+            value={newItem}
+            onChange={(e) => setNewItem(e.target.value)}
+          />
+          <button onClick={() => addToList(newItem)}>Add to List</button>
+        </label>
+      </div>
     </section>
   )
 }
