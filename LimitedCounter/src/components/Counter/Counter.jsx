@@ -14,6 +14,13 @@ const Counter = () => {
       alert('Limit reached!')
     }
   }
+
+  // Function to decrement the count
+  const decrement = () => {
+    if (count > 0) {
+      setCount(count - 1)
+    }
+  }
 }
 
 export default Counter
