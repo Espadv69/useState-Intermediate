@@ -49,8 +49,15 @@ const Counter = () => {
           <button onClick={reset}>Reset</button>
         </div>
 
-        <input type="number" value={limit} onChange={handleChange} placeholder="Set limit" />
-        <p>The limit is: <strong>{limit}</strong></p>
+        <input
+          type="number"
+          value={limit}
+          onChange={handleChange}
+          placeholder="Set limit"
+        />
+        <p>
+          The limit is: <strong>{limit}</strong>
+        </p>
       </div>
     </section>
   )
