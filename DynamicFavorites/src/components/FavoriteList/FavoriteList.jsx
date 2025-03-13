@@ -18,6 +18,13 @@ const FavoriteList = () => {
       alert('Item already in favorites')
     }
   }
+
+  // Function to remove a favorite
+  const removeFavorite = (item) => {
+    // Filter out the item to remove
+    const newList = favorites.filter((favorite) => favorite !== item)
+    setFavorites(newList)
+  }
 }
 
 export default FavoriteList
