@@ -26,6 +26,11 @@ const Counter = () => {
   const reset = () => {
     setCount(0)
   }
+
+  // Function to set the limit
+  const setLimitValue = (value) => {
+    setLimit(value)
+  }
 }
 
 export default Counter
