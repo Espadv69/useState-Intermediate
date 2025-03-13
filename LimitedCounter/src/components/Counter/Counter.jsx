@@ -46,7 +46,6 @@ const Counter = () => {
 
         <div className="counter__container--input">
           <input type="number" value={limit} placeholder="Set limit" />
-          <button onClick={setLimitValue(limit)}>Set Limit</button>
         </div>
       </div>
     </section>
