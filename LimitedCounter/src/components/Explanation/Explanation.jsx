@@ -32,6 +32,13 @@ const Explanation = () => {
           imgUrl="/images/resetFunction.png"
           imgAlt="Code snippet showing the reset function."
         />
+
+        <LiExplanation
+          stepNumber={5}
+          description="Create the function to set the limit value."
+          imgUrl="/images/setLimitFunction.png"
+          imgAlt="Code snippet showing the function to set the limit value."
+        />
       </ol>
     </section>
   )
