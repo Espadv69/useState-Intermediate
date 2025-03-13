@@ -39,6 +39,13 @@ const Explanation = () => {
           imgUrl="/images/setLimitFunction.png"
           imgAlt="Code snippet showing the function to set the limit value."
         />
+
+        <LiExplanation
+          stepNumber={6}
+          description="Handle the input change to update the limit."
+          imgUrl="/images/handleInputValue.png"
+          imgAlt="Code snippet showing the function to handle the input change."
+        />
       </ol>
     </section>
   )
