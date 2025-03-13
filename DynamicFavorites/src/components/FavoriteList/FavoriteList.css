@@ -1,0 +1,132 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background: #f8f9fa;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.container h1,
+.container h2 {
+  font-size: 1.8rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.form label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.form input {
+  padding: 8px;
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #6e8efb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #a777e3;
+}
+
+.favorite__ul,
+.list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+  justify-items: center;
+}
+
+.favorite__li,
+.list__li {
+  background: white;
+  padding: 10px;
+  width: 100%;
+  max-width: 180px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.favorite__li-button,
+.list__li-button {
+  background: #ff6b6b;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.favorite__li-button:hover,
+.list__li-button:hover {
+  background: #e63946;
+}
+
+.container>button {
+  margin-top: 1rem;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: #ff4757;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container>button:hover {
+  background: #c0392b;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .form button {
+    width: 100%;
+  }
+
+  .favorite__ul,
+  .list {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
