@@ -44,7 +44,6 @@ const FavoriteList = () => {
 
   return (
     <section className="container">
-      <h1>Favorite List</h1>
       <div className="form">
         <label>
           New Item:
@@ -57,6 +56,7 @@ const FavoriteList = () => {
         </label>
       </div>
 
+      <h1>Favorite List</h1>
       <ul className="favorite__ul">
         {favorites.map((favorite) => (
           <li className="favorite__li" key={favorite}>
