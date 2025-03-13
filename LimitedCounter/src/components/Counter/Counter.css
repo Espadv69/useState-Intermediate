@@ -1,0 +1,73 @@
+.counter {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.counter h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.counter__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.counter__container--buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  background: white;
+  color: #6e8efb;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #a777e3;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  max-width: 200px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Responsivo */
+@media (max-width: 500px) {
+  .counter {
+    padding: 1.5rem;
+  }
+
+  .counter__container--buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
