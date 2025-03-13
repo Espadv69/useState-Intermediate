@@ -30,6 +30,43 @@ const FavoriteList = () => {
   const removeAllFavorites = () => {
     setFavorites([])
   }
+
+  return (
+    <section className="container">
+      <h1>Favorite List</h1>
+
+      <ul className="favorite__ul">
+        {favorites.map((favorite) => (
+          <li className="favorite__li" key={favorite}>
+            {favorite}{' '}
+            <button
+              className="favorite__li-button"
+              onClick={() => removeFavorite(favorite)}
+            >
+              Remove
+            </button>
+          </li>
+        ))}
+      </ul>
+
+      <button onClick={removeAllFavorites}>Remove All</button>
+      <h2>List</h2>
+
+      <ul className="list">
+        {list.map((item) => (
+          <li className="list__li" key={item}>
+            {item}{' '}
+            <button
+              className="list__li-button"
+              onClick={() => addFavorite(item)}
+            >
+              Add
+            </button>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
 }
 
 export default FavoriteList
