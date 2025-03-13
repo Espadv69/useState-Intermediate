@@ -1,0 +1,18 @@
+:root {
+  --bg-light: aliceblue;
+  --txt: #121212;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--txt);
+  background-color: var(--bg-light);
+  font-family: system-ui, sans-serif;
+}
