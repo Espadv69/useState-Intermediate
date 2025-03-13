@@ -5,7 +5,7 @@
   "private": true,
   "workspaces": [
     "LimitedCounter/",
-    "TaskListWithRemoval/",
+    "DynamicFavorites/",
     "BasicShoppingCart/",
     "ImageChangerButton/",
     "PointsIncrementDecrement/"
