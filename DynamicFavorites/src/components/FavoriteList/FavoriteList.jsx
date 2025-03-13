@@ -45,6 +45,17 @@ const FavoriteList = () => {
   return (
     <section className="container">
       <h1>Favorite List</h1>
+      <div className="form">
+        <label>
+          New Item:
+          <input
+            type="text"
+            value={newItem}
+            onChange={(e) => setNewItem(e.target.value)}
+          />
+          <button onClick={() => addToList(newItem)}>Add to List</button>
+        </label>
+      </div>
 
       <ul className="favorite__ul">
         {favorites.map((favorite) => (
@@ -76,18 +87,6 @@ const FavoriteList = () => {
           </li>
         ))}
       </ul>
-
-      <div className="form">
-        <label>
-          New Item:
-          <input
-            type="text"
-            value={newItem}
-            onChange={(e) => setNewItem(e.target.value)}
-          />
-          <button onClick={() => addToList(newItem)}>Add to List</button>
-        </label>
-      </div>
     </section>
   )
 }
