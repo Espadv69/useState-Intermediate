@@ -53,6 +53,13 @@ const Explanation = () => {
           imgUrl="/images/htmlBtns.png"
           imgAlt="Code snippet showing the buttons to increment, decrement, and reset the count."
         />
+
+        <LiExplanation
+          stepNumber={8}
+          description="Render an input field to set the limit."
+          imgUrl="/images/limitInput.png"
+          imgAlt="Code snippet showing the input field to set the limit."
+        />
       </ol>
     </section>
   )
