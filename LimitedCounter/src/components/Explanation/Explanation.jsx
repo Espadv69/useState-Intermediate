@@ -18,6 +18,13 @@ const Explanation = () => {
           imgUrl="/images/incrementFunction.png"
           imgAlt="Code snippet showing the increment function."
         />
+
+        <LiExplanation
+          stepNumber={3}
+          description="Create the decrement function to decrease the count."
+          imgUrl="/images/decrementFunction.png"
+          imgAlt="Code snippet showing the decrement function."
+        />
       </ol>
     </section>
   )
