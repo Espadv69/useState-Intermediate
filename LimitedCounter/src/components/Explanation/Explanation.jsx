@@ -25,6 +25,13 @@ const Explanation = () => {
           imgUrl="/images/decrementFunction.png"
           imgAlt="Code snippet showing the decrement function."
         />
+
+        <LiExplanation
+          stepNumber={4}
+          description="Create the reset function to set the count back to 0."
+          imgUrl="/images/resetFunction.png"
+          imgAlt="Code snippet showing the reset function."
+        />
       </ol>
     </section>
   )
