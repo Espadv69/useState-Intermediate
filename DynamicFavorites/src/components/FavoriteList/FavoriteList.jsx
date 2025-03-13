@@ -16,6 +16,8 @@ const FavoriteList = () => {
     if (!list.includes(newItem)) {
       setList([...list, newItem])
       setNewItem('')
+    } else {
+      alert('Item already in list')
     }
   }
 
