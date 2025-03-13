@@ -46,6 +46,13 @@ const Explanation = () => {
           imgUrl="/images/handleInputValue.png"
           imgAlt="Code snippet showing the function to handle the input change."
         />
+
+        <LiExplanation
+          stepNumber={7}
+          description="Render the counter component with buttons and input field for setting the limit."
+          imgUrl="/images/htmlStructure.png"
+          imgAlt="Code snippet showing the HTML structure of the counter component."
+        />
       </ol>
     </section>
   )
