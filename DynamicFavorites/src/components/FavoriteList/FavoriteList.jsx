@@ -9,6 +9,15 @@ const FavoriteList = () => {
   // State with initial data
   const [favorites, setFavorites] = useState(INITIAL_FAVORITES)
   const [list, setList] = useState(INITIAL_LIST)
+
+  // Function to add a favorite
+  const addFavorite = (newItem) => {
+    if (!favorites.includes(newItem)) {
+      setFavorites([...favorites, newItem])
+    } else {
+      alert('Item already in favorites')
+    }
+  }
 }
 
 export default FavoriteList
