@@ -32,6 +32,11 @@ const Counter = () => {
     setLimit(value)
   }
 
+  // Function to handle the input change
+  const handleChange = (e) => {
+    setLimitValue(e.target.value)
+  }
+
   return (
     <section className="counter">
       <h1>Limited Counter</h1>
@@ -44,9 +49,8 @@ const Counter = () => {
           <button onClick={reset}>Reset</button>
         </div>
 
-        <div className="counter__container--input">
-          <input type="number" value={limit} placeholder="Set limit" />
-        </div>
+        <input type="number" value={limit} onChange={handleChange} placeholder="Set limit" />
+        <p>The limit is: <strong>{limit}</strong></p>
       </div>
     </section>
   )
