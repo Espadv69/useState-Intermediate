@@ -21,6 +21,11 @@ const Counter = () => {
       setCount(count - 1)
     }
   }
+
+  // Function to reset the count
+  const reset = () => {
+    setCount(0)
+  }
 }
 
 export default Counter
