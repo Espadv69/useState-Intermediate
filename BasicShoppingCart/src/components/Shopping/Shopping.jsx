@@ -13,6 +13,7 @@ const Shopping = () => {
   const addToCart = (item) => {
     // Add the item to the cart
     setCart([...cart, item])
+
     // Update the total price
     setTotal(total + item.price)
   }
