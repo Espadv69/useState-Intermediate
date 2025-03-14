@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { INITIAL_FAVORITES, INITIAL_LIST } from '../../utils/data.js'
 
-import FavoriteItem from './FavoriteItem.jsx'
+import FavoriteItem from './FavoriteItem'
+import ListItem from './ListItem'
 import './FavoriteList.css'
 
 const FavoriteList = () => {
@@ -67,15 +68,7 @@ const FavoriteList = () => {
 
       <ul className="list">
         {list.map((item) => (
-          <li className="list__li" key={item}>
-            {item}{' '}
-            <button
-              className="list__li-button"
-              onClick={() => addFavorite(item)}
-            >
-              Add
-            </button>
-          </li>
+          <ListItem item={item} onAddFavorite={addFavorite} />
         ))}
       </ul>
     </section>
