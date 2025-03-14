@@ -16,6 +16,18 @@ const Shopping = () => {
     // Update the total price
     setTotal(total + item.price)
   }
+
+  // Function to remove an item from the cart
+  const removeFromCart = (item) => {
+    // Find index
+    const itemIndex = cart.findIndex((cartItem) => cartItem.id === item.id)
+
+    // Remove the item from the cart
+    cart.splice(itemIndex, 1)
+
+    // Update the cart
+    setCart([...cart])
+  }
 }
 
 export default Shopping
