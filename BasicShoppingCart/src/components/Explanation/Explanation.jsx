@@ -26,6 +26,13 @@ const Explanation = () => {
           imgUrl="/images/removeFromCart.png"
           imgAlt="Code snippet for removing from cart"
         />
+
+        <LiExplanation
+          stepNumber={4}
+          description="Render products."
+          imgUrl="/images/renderProducts.png"
+          imgAlt="Code snippet for rendering the products"
+        />
       </ul>
     </section>
   )
