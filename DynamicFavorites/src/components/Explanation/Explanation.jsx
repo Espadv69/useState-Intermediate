@@ -33,6 +33,13 @@ const Explanation = () => {
           imgUrl="/images/addFavorite.png"
           imgAlt="Code snippet with addFavorite function"
         />
+
+        <LiExplanation
+          stepNumber={5}
+          description="Function to remove an item from the favorites."
+          imgUrl="/images/removeFavorite.png"
+          imgAlt="Code snippet with removeFavorite function"
+        />
       </ul>
     </section>
   )
