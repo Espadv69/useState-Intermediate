@@ -68,6 +68,13 @@ const Explanation = () => {
           imgUrl="/images/renderList.png"
           imgAlt="Code snippet with list"
         />
+
+        <LiExplanation
+          stepNumber={10}
+          description="Rendering all HTML elements."
+          imgUrl="/images/htmlStructure.png"
+          imgAlt="Code snippet with all HTML elements"
+        />
       </ul>
     </section>
   )
