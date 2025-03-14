@@ -13,11 +13,11 @@ const FavoriteList = () => {
 
   // Function to add to list
   const addToList = (newItem) => {
-    if (!list.includes(newItem)) {
+    if (!list.includes(newItem) && newItem !== '') {
       setList([...list, newItem])
       setNewItem('')
     } else {
-      alert('Item already in list')
+      alert('Item already in list or empty input')
     }
   }
 
