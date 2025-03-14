@@ -48,4 +48,11 @@ export const data = [
     price: 4,
     image: 'https://via.placeholder.com',
   },
+  {
+    id: 8,
+    name: 'Sunglasses',
+    description: 'This is a sunglasses',
+    price: 6,
+    image: 'https://via.placeholder',
+  },
 ]
