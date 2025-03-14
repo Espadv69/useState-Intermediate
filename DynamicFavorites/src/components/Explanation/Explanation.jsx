@@ -54,6 +54,13 @@ const Explanation = () => {
           imgUrl="/images/form.png"
           imgAlt="Code snippet with form"
         />
+
+        <LiExplanation
+          stepNumber={8}
+          description="Rendering the list of favorites with a button to remove an item."
+          imgUrl="/images/renderFavoritesList.png"
+          imgAlt="Code snippet with favorite list"
+        />
       </ul>
     </section>
   )
