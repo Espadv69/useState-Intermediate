@@ -26,6 +26,13 @@ const Explanation = () => {
           imgUrl="/images/addList.png"
           imgAlt="Code snippet with addToList function"
         />
+
+        <LiExplanation
+          stepNumber={4}
+          description="Function to add an item to the favorites."
+          imgUrl="/images/addFavorite.png"
+          imgAlt="Code snippet with addFavorite function"
+        />
       </ul>
     </section>
   )
