@@ -19,6 +19,13 @@ const Explanation = () => {
           imgUrl="/images/changeImageFunction.png"
           alt="Code snippet of the changeImage function"
         />
+
+        <LiExplanation
+          stepNumber={3}
+          description="Get the current image"
+          imgUrl="/images/getCurrentImage.png"
+          alt="Code snippet of getting the current image"
+        />
       </ul>
     </section>
   )
