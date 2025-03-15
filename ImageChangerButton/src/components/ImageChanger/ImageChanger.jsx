@@ -11,6 +11,9 @@ const ImageChanger = () => {
   const changeImage = () => {
     setImageIndex((imageIndex + 1) % IMAGES.length)
   }
+
+  // Get the current image
+  const currentImage = IMAGES[imageIndex]
 }
 
 export default ImageChanger
