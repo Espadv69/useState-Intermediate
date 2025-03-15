@@ -14,6 +14,19 @@ const ImageChanger = () => {
 
   // Get the current image
   const currentImage = IMAGES[imageIndex]
+
+  return (
+    <section className="image-changer">
+      <h1>Image Changer</h1>
+      <div className="image-container">
+        <img src={currentImage} alt="Random pokemon image" />
+      </div>
+      <button onClick={changeImage}>Change Image</button>
+      <p>
+        Image {imageIndex + 1} of {IMAGES.length}
+      </p>
+    </section>
+  )
 }
 
 export default ImageChanger
