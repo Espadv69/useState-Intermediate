@@ -8,7 +8,7 @@
     "DynamicFavorites/",
     "BasicShoppingCart/",
     "ImageChangerButton/",
-    "PointsIncrementDecrement/"
+    "RandomColorGenerator/"
   ],
   "keywords": [
     "useState",
