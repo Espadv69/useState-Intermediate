@@ -20,6 +20,13 @@ const Explanation = () => {
           imgUrl="/images/initHooks.png"
           imgAlt="Code snippet showing how to initialize the state hooks."
         />
+
+        <LiExplanation
+          stepNumber={3}
+          description="Function to generate a random color."
+          imgUrl="/images/generateColorFunction.png"
+          imgAlt="Code snippet showing how to generate a random color."
+        />
       </ul>
     </section>
   )
