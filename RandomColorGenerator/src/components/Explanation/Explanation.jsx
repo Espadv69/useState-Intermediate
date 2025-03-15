@@ -27,6 +27,13 @@ const Explanation = () => {
           imgUrl="/images/generateColorFunction.png"
           imgAlt="Code snippet showing how to generate a random color."
         />
+
+        <LiExplanation
+          stepNumber={4}
+          description="Rendering all HTML elements with dinamically changing colors."
+          imgUrl="/images/htmlStructure.png"
+          imgAlt="Code snippet showing how to render HTML elements with dinamically changing colors."
+        />
       </ul>
     </section>
   )
