@@ -13,6 +13,13 @@ const Explanation = () => {
           imgUrl="/images/importColors.png"
           imgAlt="Code snippet showing how to import COLORS array from the colors.js file."
         />
+
+        <LiExplanation
+          stepNumber={2}
+          description="State to keep track of the current color index and the current color."
+          imgUrl="/images/initHooks.png"
+          imgAlt="Code snippet showing how to initialize the state hooks."
+        />
       </ul>
     </section>
   )
