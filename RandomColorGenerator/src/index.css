@@ -1,0 +1,22 @@
+/* Onest font-family */
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+:root {
+  --bg: #bbbbbb;
+  --txt: #121212;
+  --font: 'Onest', system-ui, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--txt);
+  font-family: var(--font);
+  background-color: var(--bg);
+}
