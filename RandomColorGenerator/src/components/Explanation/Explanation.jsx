@@ -4,7 +4,7 @@ import './Explanation.css'
 const Explanation = () => {
   return (
     <section className="explanation">
-      <h1>How to use</h1>
+      <h2>How to use</h2>
 
       <ul className="ul__explanation">
         <LiExplanation
