@@ -12,6 +12,13 @@ const Explanation = () => {
           imgUrl="/images/initHook.png"
           alt="Code snippet of the init hook"
         />
+
+        <LiExplanation
+          stepNumber={2}
+          description="Function to change the image"
+          imgUrl="/images/changeImageFunction.png"
+          alt="Code snippet of the changeImage function"
+        />
       </ul>
     </section>
   )
