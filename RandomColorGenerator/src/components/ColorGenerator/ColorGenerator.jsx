@@ -19,6 +19,20 @@ const ColorGenerator = () => {
     // Set the color to the color at the random index
     setColor(COLORS[randomIndex])
   }
+
+  return (
+    <section className="color-generator">
+      <h1 style={{ color: color }}>Random Color Generator</h1>
+
+      <div className="color-box" style={{ backgroundColor: color }}></div>
+
+      <button className="generate-button" onClick={generateRandomColor}>
+        Generate Random Color
+      </button>
+
+      <p className="color-code">{color}</p>
+    </section>
+  )
 }
 
 export default ColorGenerator
